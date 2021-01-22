@@ -1,0 +1,142 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  background-color: #1fc8e3;
+  color: white;
+}
+
+body h1 {
+  text-shadow: 2px 2px #17a2b8;
+}
+.container {
+  padding: 10px;
+}
+
+#loggedInEmail {
+  position: relative;
+  top: 9px;
+  color: white;
+  right: 5px;
+}
+
+.modal-content {
+  color: black;
+}
+
+.error {
+  display: none;
+}
+
+.gameLog {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  margin: 10px 0;
+  box-shadow: 2px 2px 1px #17a2b8;
+}
+
+.titleText {
+  font-weight: bold;
+  font-size: 1.25em;
+}
+
+.platformText {
+  font-style: italic;
+  font-size: 0.8em;
+}
+
+.userEmail {
+  float: right;
+}
+
+.userEmail a {
+  color: black;
+}
+
+.commentsText {
+  margin: 0 0 15px 5px;
+  text-align: center;
+}
+
+.ratingText {
+  font-size: 2em;
+  color: #e33a1f;
+  margin: -10px 0 0 5px;
+  text-align: center;
+}
+
+.completedText {
+  text-align: right;
+  font-size: 0.9em;
+}
+
+.completedText label {
+  margin-right: 5px;
+}
+
+#addButton {
+  padding: 5px 15px;
+  font-family: Helvetica, sans-serif;
+  box-shadow: 2px 2px 1px #17a2b8;
+  margin-top: 9px !important;
+  font-weight: bold;
+}
+
+.plusSymbol {
+  font-weight: bold;
+  font-size: 32px;
+  color: #1fc8e3;
+}
+
+hr {
+  border: white dashed 1px;
+}
+
+#hiScores {
+  background-color: white;
+  color: black;
+  padding: 20px 10px;
+  margin: 10px 0;
+  box-shadow: 2px 2px 1px #17a2b8;
+  font-size: 1.05em;
+}
+
+.hiScoreTitle {
+  font-weight: bold;
+}
+
+#hiScores p {
+  margin-top: 10px;
+  border: 1px solid transparent;
+}
+
+#hiScores a {
+  text-decoration: none;
+  color: black;
+}
+
+#hiScores a:hover {
+  text-decoration: underline;
+}
+
+.hiScoreRating {
+  color: #e33a1f;
+  float: right;
+  margin-right: 0px !important;
+}
+
+#followButton {
+  padding: 5px 10px;
+  font-family: Helvetica, sans-serif;
+  box-shadow: 2px 2px 1px #17a2b8;
+  margin-top: 9px !important;
+  min-width: 94px;
+  font-weight: bold;
+}
